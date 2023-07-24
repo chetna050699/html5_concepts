@@ -1,0 +1,54 @@
+<!--
+    Meta tags in HTML documents provide useful information about the document including a description, keywords,
+author, dates of modifications and around 90 other fields. This topic covers the usage and purpose of these tags.
+-->
+
+<!--
+
+    application-name
+Giving the name of the Web application that the page represents.
+<meta name="application-name" content="OpenStreetMap">
+If it’s not a Web application, the application-name meta tag must not be used.
+author
+Set the author of the page:
+<meta name="author" content="Your Name">
+Only one name can be given.
+description
+Set the description of the page:
+<meta name="description" content="Page Description">
+The description meta tag can be used by various search engines while indexing your web page for searching
+purpose. Usually, the description contained within the meta tag is the short summary that shows up under the
+page/website's main title in the search engine results. Google usually uses only the first 20-25 words of your
+description.
+generator
+<meta name="generator" content="HTML Generator 1.42">
+Identifies one of the software packages used to generate the document. Only to be used for pages where the
+markup is automatically generated.
+keywords
+Set keywords for search engines (comma-separated):
+<meta name="keywords" content="Keyword1, Keyword2">
+The keywords meta tag is sometimes used by search engines to know the search query which is relevant to your
+web page.
+As a rule of thumb, it is probably a good idea to not add too many words, as most search engines that use this meta
+tag for indexing will only index the first ~20 words. Make sure that you put the most important keywords first.
+
+
+-->
+
+<!--
+
+    The charset attribute specifies the character encoding for the HTML document and needs to be a valid character
+GoalKicker.com – HTML5 Notes for Professionals 86
+encoding (examples include windows-1252, ISO-8859-2, Shift_JIS, and UTF-8). UTF-8 (Unicode) is the most widely
+used and should be used for any new project.
+Version = 5
+<meta charset="UTF-8">
+<meta charset="ISO-8859-1">
+All browsers have always recognized the <meta charset> form, but if you for some reason need your page to be
+valid HTML 4.01, you can use the following instead:
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+-->

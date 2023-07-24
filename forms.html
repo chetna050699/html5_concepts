@@ -1,0 +1,46 @@
+<!--
+    The Action Attribute
+The action attribute defines the action to be performed when the form is submitted, which usually leads to a script
+that collects the information submitted and works with it. if you leave it blank, it will send it to the same file
+<form action="action.php">
+
+    The Method Attribute
+The method attribute is used to define the HTTP method of the form which is either GET or POST.
+<form action="action.php" method="get">
+<form action="action.php" method="post">
+
+    Uploading Files
+Images and files can be uploaded/submitted to server by setting enctype attribute of form tag to multipart/formdata.
+enctype specifies how form data would be encoded while submitting to the server.
+Example
+<form method="post" enctype="multipart/form-data" action="upload.php">
+<input type="file" name="pic" />
+<input type="submit" value="Upload" />
+</form>
+
+Grouping of few input fields
+
+
+While designing a form, you might like to group a few input fields into a group to help organise the form layout.
+This can be done by using the tag . Here is an example for using it.
+For each fieldset, you can set a legend for the set using the tag LEGEND TEXT
+Example
+<form>
+<fieldset>
+<legend>1st field set:</legend>
+Field one:<br>
+<input type="text"><br>
+GoalKicker.com – HTML5 Notes for Professionals 56
+Field two:<br>
+<input type="text"><br>
+</fieldset><br>
+<fieldset>
+<legend>2nd field set:</legend>
+Field three:<br>
+<input type="text"><br>
+Field four:<br>
+<input type="text"><br>
+</fieldset><br>
+<input type="submit" value="Submit">
+</form>
+-->

@@ -1,0 +1,70 @@
+<!--
+   
+href
+
+Specifies the destination address. It can be an absolute or relative URL, or the name of an anchor. An
+absolute URL is the complete URL of a website like http://example.com/. A relative URL points to
+another directory and/or document inside the same website, e.g. /about-us/ points to the directory
+“about-us” inside the root directory (/). When pointing to another directory without explicitly specifying
+the document, web servers typically return the document “index.html” inside that directory.
+hreflang Specifies the language of the resource linked by the href attribute (which must be present with this
+one). Use language values from BCP 47 for HTML5 and RFC 1766 for HTML 4.
+
+
+rel 
+
+Specifies the relationship between the current document and the linked document. For HTML5, the
+values must be defined in the specification or registered in the Microformats wiki.
+
+
+target
+
+
+Specifies where to open the link, e.g. in a new tab or window. Possible values are _blank, _self,
+_parent, _top, and framename (deprecated). Forcing such behaviour is not recommended since it
+violates the control of the user over a website.
+
+
+title
+
+
+Specifies extra information about a link. The information is most often shown as a tooltip text when
+the cursor moves over the link. This attribute is not restricted to links, it can be used on almost all
+HTML tags.
+
+
+download
+
+
+Specifies that the target will be downloaded when a user clicks on the hyperlink. The value of the
+attribute will be the name of the downloaded file. There are no restrictions on allowed values, and the
+browser will automatically detect the correct file extension and add it to the file (.img, .pdf, etc.). If the
+value is omitted, the original filename is used.
+
+
+-->
+
+<!--Links to another site
+
+<a href="https://pasteyoururl">Link to example.com</a>
+
+
+-->
+
+<!--Links to dial a call numbers
+    <a href="tel:00000000">Call us</a>
+-->
+
+<!--Links that runs email clients
+
+    <a href="mailto:xxxxx@yyy.com">Send email</a>
+
+   cc and bcc
+
+   <a href="mailto:example@example.com?cc=john@example.com&bcc=jane@example.com">Send email</a>
+
+
+-->
+
+
+
